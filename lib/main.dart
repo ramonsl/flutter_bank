@@ -1,9 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_bank/database/app_database.dart';
+import 'package:flutter_bank/models/contato.dart';
 import 'package:flutter_bank/telas/contatos_lista.dart';
 import 'package:flutter_bank/telas/form_contato.dart';
 import 'telas/dash.dart';
 void main() {
   runApp(MyApp());
+
 }
 
 class MyApp extends StatelessWidget {
